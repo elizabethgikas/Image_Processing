@@ -1,2 +1,5 @@
-print("Hello world!")
-print("Welcome to our project")
+from piCamera import PiCamera
+import cv2
+from time import sleep
+
+camera=PiCamera()
